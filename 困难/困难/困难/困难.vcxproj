@@ -141,6 +141,9 @@
   <ItemGroup>
     <ClInclude Include="数组中的逆序对.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="388-文件的最长绝对路径.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

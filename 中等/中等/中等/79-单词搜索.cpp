@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 /*
-	单词搜索：
+	单词搜索：（和太平洋大西洋水流问题类似）
 		从第一个单词开始遍历搜索，如果左边不行，则进行转弯（上，下）遍历
 */
 class Solution {

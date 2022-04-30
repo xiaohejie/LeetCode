@@ -96,5 +96,8 @@
     <ClCompile Include="79-单词搜索.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="427-建立四叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

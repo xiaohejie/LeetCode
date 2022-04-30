@@ -160,6 +160,7 @@
     <ClCompile Include="396-旋转函数.cpp" />
     <ClCompile Include="398-随机数索引.cpp" />
     <ClCompile Include="417-太平洋大西洋水流问题.cpp" />
+    <ClCompile Include="427-建立四叉树.cpp" />
     <ClCompile Include="49-字母异位词分组.cpp" />
     <ClCompile Include="56-合并区间.cpp" />
     <ClCompile Include="633-平方数之和.cpp" />
