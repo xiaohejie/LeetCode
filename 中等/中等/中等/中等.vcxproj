@@ -146,6 +146,7 @@
     <ClCompile Include="02-位运算.cpp" />
     <ClCompile Include="03-滑动窗口.cpp" />
     <ClCompile Include="11-盛水最多的容器.cpp" />
+    <ClCompile Include="1305-两颗二叉树中的所有元素.cpp" />
     <ClCompile Include="15-三数之和.cpp" />
     <ClCompile Include="16-最接近的三数之和.cpp" />
     <ClCompile Include="167-两数之和-输入有序数组.cpp" />
@@ -161,14 +162,22 @@
     <ClCompile Include="398-随机数索引.cpp" />
     <ClCompile Include="417-太平洋大西洋水流问题.cpp" />
     <ClCompile Include="427-建立四叉树.cpp" />
+    <ClCompile Include="43-字符串相乘.cpp" />
     <ClCompile Include="49-字母异位词分组.cpp" />
     <ClCompile Include="56-合并区间.cpp" />
+    <ClCompile Include="63-不同路径II.cpp" />
     <ClCompile Include="633-平方数之和.cpp" />
+    <ClCompile Include="64-最小路径和.cpp" />
     <ClCompile Include="680-验证回文字符串ii.cpp" />
     <ClCompile Include="79-单词搜索.cpp" />
     <ClCompile Include="819-最常见的单词.cpp" />
     <ClCompile Include="824-山羊拉丁文.cpp" />
+    <ClCompile Include="86-分隔链表.cpp" />
     <ClCompile Include="883-三维形体投影面积.cpp" />
+    <ClCompile Include="937-重新排列日志文件.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="910.最小差值II.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -17,8 +17,8 @@ public:
             degree[edge[0]]++;
             degree[edge[1]]++;
 
-            g[edge[0]].push_back(edge[1]);      //把edge[0]的邻居加进去        key：结点      value：邻居们
-            g[edge[1]].push_back(edge[0]);      //把edge[1]的邻居加进去
+            map[edge[0]].push_back(edge[1]);      //把edge[0]的邻居加进去        key：结点      value：邻居们
+            map[edge[1]].push_back(edge[0]);      //把edge[1]的邻居加进去
         }
 
         queue<int> q;                       //此时此刻的叶子结点们
@@ -33,7 +33,7 @@ public:
         while (visited < n) {               //当visit小于节点数量
             while (!q.empty()) {
                 int e = q.front(); q.pop();     //挨个取出叶子结点
-                for (auto v : g[e]) {
+                for (auto v : map [e]) {
                     degree[v]--;
                     if (degree[v] == 1) {
                         tmp.push(v);

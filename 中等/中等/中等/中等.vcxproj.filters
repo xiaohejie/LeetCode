@@ -99,5 +99,28 @@
     <ClCompile Include="427-建立四叉树.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1305-两颗二叉树中的所有元素.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="86-分隔链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="43-字符串相乘.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="64-最小路径和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="63-不同路径II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="937-重新排列日志文件.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="910.最小差值II.cpp">
+      <Filter>源文件</Filter>
+    </None>
   </ItemGroup>
 </Project>
