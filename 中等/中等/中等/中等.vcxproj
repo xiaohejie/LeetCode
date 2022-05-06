@@ -150,6 +150,8 @@
     <ClCompile Include="15-三数之和.cpp" />
     <ClCompile Include="16-最接近的三数之和.cpp" />
     <ClCompile Include="167-两数之和-输入有序数组.cpp" />
+    <ClCompile Include="1823-找出游戏中的获胜者.cpp" />
+    <ClCompile Include="236-二叉树的公共祖先.cpp" />
     <ClCompile Include="283-移动0.cpp" />
     <ClCompile Include="31-下一个排列.cpp" />
     <ClCompile Include="310-最小高度树.cpp" />
@@ -163,12 +165,18 @@
     <ClCompile Include="417-太平洋大西洋水流问题.cpp" />
     <ClCompile Include="427-建立四叉树.cpp" />
     <ClCompile Include="43-字符串相乘.cpp" />
+    <ClCompile Include="48-旋转图像.cpp" />
     <ClCompile Include="49-字母异位词分组.cpp" />
+    <ClCompile Include="491-递增子序列.cpp" />
+    <ClCompile Include="50-Pow(x, n).cpp" />
+    <ClCompile Include="54-螺旋矩阵.cpp" />
     <ClCompile Include="56-合并区间.cpp" />
+    <ClCompile Include="59-螺旋矩阵II.cpp" />
     <ClCompile Include="63-不同路径II.cpp" />
     <ClCompile Include="633-平方数之和.cpp" />
     <ClCompile Include="64-最小路径和.cpp" />
     <ClCompile Include="680-验证回文字符串ii.cpp" />
+    <ClCompile Include="713-乘积小于K的子数组.cpp" />
     <ClCompile Include="79-单词搜索.cpp" />
     <ClCompile Include="819-最常见的单词.cpp" />
     <ClCompile Include="824-山羊拉丁文.cpp" />

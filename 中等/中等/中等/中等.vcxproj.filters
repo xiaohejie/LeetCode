@@ -117,6 +117,30 @@
     <ClCompile Include="937-重新排列日志文件.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1823-找出游戏中的获胜者.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="50-Pow(x, n).cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="48-旋转图像.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="236-二叉树的公共祖先.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="713-乘积小于K的子数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="54-螺旋矩阵.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="59-螺旋矩阵II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="491-递增子序列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="910.最小差值II.cpp">
