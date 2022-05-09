@@ -30,7 +30,7 @@ public:
 		int cnt = 0;		//用于存\t的数量
 		for (int i = 0; i < input.size(); i++) {
 			//判断当前字符是什么
-			if (isalpha(input[i]) || input[i] == '.' || isdigit(input[i] || input[i] == ' ')) {
+			if (isalpha(input[i]) || input[i] == '.' || isdigit(input[i]) || input[i] == ' ') {
 				while (cnt < v.size()) {
 					//这里搞不懂（画图理解，别忘了后面还有置0）
 					curLen -= v.back().size();

@@ -141,6 +141,15 @@
     <ClCompile Include="491-递增子序列.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="433-最小基因变化.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="442-数组中的重复的数据.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="797-所有可能的路径.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="910.最小差值II.cpp">
