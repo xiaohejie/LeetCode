@@ -3,7 +3,7 @@
 #include<algorithm>
 using namespace std;
 /*
-	字符串相乘：
+	字符串相乘：（还有一个字符串相加（解法不太一样））
 		将字符串转化为vector<int>存储
 		res的最大长度就设为两者长度之和
 		对vector进行逆反

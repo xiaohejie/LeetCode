@@ -145,6 +145,8 @@
     <ClCompile Include="310-最小高度树.cpp" />
     <ClCompile Include="388-文件的最长绝对路径.cpp" />
     <ClCompile Include="440-字典序的第k小数字.cpp" />
+    <ClCompile Include="51-N皇后问题.cpp" />
+    <ClCompile Include="52-N皇后问题II.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

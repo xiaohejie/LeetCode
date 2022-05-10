@@ -20,6 +20,7 @@ public:
 			backtrack(graph, g);
 		}
 		ans.pop_back();		//回溯，去掉最后一个元素
+		return;
 	}
 	vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
 		int len = graph.size();

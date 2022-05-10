@@ -29,5 +29,11 @@
     <ClCompile Include="310-最小高度树.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="51-N皇后问题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="52-N皇后问题II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

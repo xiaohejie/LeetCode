@@ -146,6 +146,7 @@
     <ClInclude Include="744-寻找比目标字母答的最小字母.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="942-增减字符串匹配.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

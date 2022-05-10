@@ -167,11 +167,13 @@
     <ClCompile Include="43-字符串相乘.cpp" />
     <ClCompile Include="433-最小基因变化.cpp" />
     <ClCompile Include="442-数组中的重复的数据.cpp" />
+    <ClCompile Include="45-跳跃游戏II.cpp" />
     <ClCompile Include="48-旋转图像.cpp" />
     <ClCompile Include="49-字母异位词分组.cpp" />
     <ClCompile Include="491-递增子序列.cpp" />
     <ClCompile Include="50-Pow(x, n).cpp" />
     <ClCompile Include="54-螺旋矩阵.cpp" />
+    <ClCompile Include="55-跳跃游戏.cpp" />
     <ClCompile Include="56-合并区间.cpp" />
     <ClCompile Include="59-螺旋矩阵II.cpp" />
     <ClCompile Include="63-不同路径II.cpp" />
@@ -186,6 +188,8 @@
     <ClCompile Include="86-分隔链表.cpp" />
     <ClCompile Include="883-三维形体投影面积.cpp" />
     <ClCompile Include="937-重新排列日志文件.cpp" />
+    <ClCompile Include="942-增减字符串匹配.cpp" />
+    <ClCompile Include="剑指：链表中的两数相加.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="910.最小差值II.cpp" />
