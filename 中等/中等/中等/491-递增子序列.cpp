@@ -13,7 +13,7 @@ public:
 	//判断重复字符串
 	bool isFirst(vector<int>& nums, int last, int pos) {
 		for (int i = last + 1; i < pos; i++) {
-			if (nums[i] == nums[pos]) {//从已经存入ans中的最后一个数字的后一个数字开始，发哦pos的前一个，如果有和pos相等的数字，该数字就不可取
+			if (nums[i] == nums[pos]) {//从已经存入ans中的最后一个数字的后一个数字开始，发现pos的前一个，如果有和pos相等的数字，该数字就不可取
 				return false;
 			}
 		}

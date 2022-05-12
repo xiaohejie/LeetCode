@@ -162,6 +162,15 @@
     <ClCompile Include="剑指：链表中的两数相加.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="78-子集.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="90-子集II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="449-序列化和反序列化二插搜索树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="910.最小差值II.cpp">

@@ -1,3 +1,4 @@
+
 #include<iostream>
 #include<vector>
 /*
@@ -41,19 +42,23 @@ int rangeBitwiseAnd(int n, int m) {
 	int msb1 = msb(n);
 	int msb2 = msb(m);
 	if (msb1 != msb2) {
+		//如果最高位不一样，则直接返回0
 		return 0;
 	}
+	//记录相同的最高位
 	int msb = msb1;
+	//输出结果
 	int result = 0;
 	while (msb>=0) {
-		//get到msb为的值
+		//get到msb位的值，是0还是1
 		int i = getBit(n, msb);
 		int j = getBit(m, msb);
 		if (i != j) {
+			//如果i和j不一样的话，就直接返回result，因为，后面都是0
 			return result;
 		}
 		else if(i == 1) {
-			//将第msb为置位1
+			//如果该位一样并且是1，就将result的第msb为置位1
 			result = setBit(result, msb);
 		}
 		msb--;

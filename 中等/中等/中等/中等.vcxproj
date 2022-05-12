@@ -167,6 +167,7 @@
     <ClCompile Include="43-字符串相乘.cpp" />
     <ClCompile Include="433-最小基因变化.cpp" />
     <ClCompile Include="442-数组中的重复的数据.cpp" />
+    <ClCompile Include="449-序列化和反序列化二插搜索树.cpp" />
     <ClCompile Include="45-跳跃游戏II.cpp" />
     <ClCompile Include="48-旋转图像.cpp" />
     <ClCompile Include="49-字母异位词分组.cpp" />
@@ -181,12 +182,14 @@
     <ClCompile Include="64-最小路径和.cpp" />
     <ClCompile Include="680-验证回文字符串ii.cpp" />
     <ClCompile Include="713-乘积小于K的子数组.cpp" />
+    <ClCompile Include="78-子集.cpp" />
     <ClCompile Include="79-单词搜索.cpp" />
     <ClCompile Include="797-所有可能的路径.cpp" />
     <ClCompile Include="819-最常见的单词.cpp" />
     <ClCompile Include="824-山羊拉丁文.cpp" />
     <ClCompile Include="86-分隔链表.cpp" />
     <ClCompile Include="883-三维形体投影面积.cpp" />
+    <ClCompile Include="90-子集II.cpp" />
     <ClCompile Include="937-重新排列日志文件.cpp" />
     <ClCompile Include="942-增减字符串匹配.cpp" />
     <ClCompile Include="剑指：链表中的两数相加.cpp" />

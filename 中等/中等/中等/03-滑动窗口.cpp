@@ -1,7 +1,9 @@
 #include<iostream>
 #include <vector>
 using namespace std;
-//使用滑动窗口：
+/*
+	使用滑动窗口：
+*/
 int helper(int arr[], int k, vector<pair<int, int>> ans) {
 	int sum = 0;
 	int length = 0;

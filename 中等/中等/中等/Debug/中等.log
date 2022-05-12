@@ -1,45 +1,13 @@
 ﻿  0-草稿.cpp
-  01-汉诺塔问题.cpp
-  02-位运算.cpp
-  03-滑动窗口.cpp
-  11-盛水最多的容器.cpp
-  15-三数之和.cpp
-  16-最接近的三数之和.cpp
-D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\16-最接近的三数之和.cpp(36,18): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-  167-两数之和-输入有序数组.cpp
-  283-移动0.cpp
-D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\283-移动0.cpp(25,25): warning C4018: “<”: 有符号/无符号不匹配
-D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\283-移动0.cpp(32,34): warning C4018: “<”: 有符号/无符号不匹配
-  31-下一个排列.cpp
   310-最小高度树.cpp
-D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\310-最小高度树.cpp(20,13): error C2065: “g”: 未声明的标识符
-D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\310-最小高度树.cpp(21,13): error C2065: “g”: 未声明的标识符
-D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\310-最小高度树.cpp(36,31): error C2065: “g”: 未声明的标识符
-D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\310-最小高度树.cpp(36,1): error C3531: “v”: 类型包含“auto”的符号必须具有初始值设定项
-D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\310-最小高度树.cpp(36,29): error C2143: 语法错误: 缺少“;”(在“:”的前面)
-D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\310-最小高度树.cpp(36,35): error C2143: 语法错误: 缺少“;”(在“)”的前面)
 D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\310-最小高度树.cpp(55,16): error C2011: “Solution”:“class”类型重定义
 D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\310-最小高度树.cpp(9): message : 参见“Solution”的声明
   34-在排序树组中查找元素的第一个和最后一个位置.cpp
-  36-有效的数独.cpp
-  38-外观数列.cpp
-  386-字典序排数.cpp
-  388-文件的最长路径.cpp
-  396-旋转函数.cpp
-D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\396-旋转函数.cpp(23,21): warning C4018: “<”: 有符号/无符号不匹配
-  398-随机数索引.cpp
-  417-太平洋大西洋水流问题.cpp
-  427-建立四叉树.cpp
-  正在生成代码...
-  正在编译...
-  49-字母异位词分组.cpp
-  56-合并区间.cpp
-D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\56-合并区间.cpp(10,27): warning C4018: “<”: 有符号/无符号不匹配
-D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\56-合并区间.cpp(13,22): warning C4018: “<”: 有符号/无符号不匹配
-  633-平方数之和.cpp
-  680-验证回文字符串ii.cpp
-  79-单词搜索.cpp
-  819-最常见的单词.cpp
-  824-山羊拉丁文.cpp
-  883-三维形体投影面积.cpp
+  59-螺旋矩阵II.cpp
+  78-子集.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\78-子集.cpp(16,25): warning C4018: “<”: 有符号/无符号不匹配
+  90-子集II.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\90-子集II.cpp(14,13): warning C4018: “>=”: 有符号/无符号不匹配
+D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\90-子集II.cpp(17,25): warning C4018: “<”: 有符号/无符号不匹配
+  剑指：链表中的两数相加.cpp
   正在生成代码...
