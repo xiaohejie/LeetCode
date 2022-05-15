@@ -35,5 +35,8 @@
     <ClCompile Include="52-N皇后问题II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="31-下一个排列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -2,7 +2,7 @@
 #include<string>
 using namespace std;
 /*
-    外观数列：
+    外观数列：（使用动态规划）
         当n==1时{
             return “1”；
         }

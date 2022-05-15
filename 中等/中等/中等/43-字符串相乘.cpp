@@ -7,6 +7,7 @@ using namespace std;
 		将字符串转化为vector<int>存储
 		res的最大长度就设为两者长度之和
 		对vector进行逆反
+		开始计算（搞懂怎么计算的）
 */
 class Solution {
 public:
@@ -19,7 +20,7 @@ public:
 		for (int i = 0; i < num2.size(); i++) {
 			b.push_back(num2[i] - '0');
 		}
-		//设置结果的长度
+		//设置结果的长度（两数相乘，结果长度最大就是两个乘数的长度相加）
 		c.resize(a.size() + b.size());
 		//对vector进行逆反
 		reverse(a.begin(), a.end());

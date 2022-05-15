@@ -34,7 +34,7 @@ public:
         sort(nums.begin(), nums.end());
         int len = nums.size();
         int best = 1e7;
-        //根据差值来更新best
+        //根据差值来更新best（使用的是lamada表达式）
         auto update = [&](int cur) {
             if (abs(cur - target) < abs(best - target)) {
                 best = cur;

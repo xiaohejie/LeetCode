@@ -3,7 +3,7 @@
 #include<unordered_set>
 using namespace std;
 /*
-	N皇后问题：
+	N皇后问题：（回溯法求解）
 		
 */
 class Solution {
@@ -26,14 +26,15 @@ public:
 		res.push_back(rs);
 	}
 	void dfs(int i, int n, vector<vector<bool>>& board, unordered_set<int>& col, unordered_set<int>& pie, unordered_set<int>& na) {
-		//回溯中止条件
+		//回溯中止条件（i==n表示已经到达末尾）
 		if (i == n) {
-			generateResult(board);
+			generateResult(board);		//记录答案
 			return;
 		}
 		//遍历列
 		for (int j = 0; j < n; j++) {
 			if (col.count(j) || pie.count(i+j) || na.count(i-j)) {
+				//判断那些地方不可以取
 				continue;
 			}
 			board[i][j] = true;		//记录当前board[i][j]已选中
@@ -45,7 +46,7 @@ public:
 			//跳转到下一行
 			dfs(i + 1, n, board, col, pie, na);
 
-			//进行回溯
+			//进行回溯（撤销当前选取的点）
 			board[i][j] = false;
 			col.erase(j);
 			pie.erase(i + j);

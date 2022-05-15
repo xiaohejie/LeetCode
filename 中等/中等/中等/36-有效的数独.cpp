@@ -28,11 +28,12 @@ public:
 				if (board[i][j] == '.') {
 					continue;	//如果不是数字跳过
 				}
+				//数字单元格
 				int boxIndex = i / 3 * 3 + j / 3;
 				//否则的话将所在行、列、单元格求出
-				string r = to_string(board[i][j]) + "in row" + to_string(i);
-				string c = to_string(board[i][j]) + "in cow" + to_string(j);
-				string idx = to_string(board[i][j]) + "int box" + to_string(boxIndex);
+				string r = to_string(board[i][j]) + "in row" + to_string(i);				//该数字所在行
+				string c = to_string(board[i][j]) + "in cow" + to_string(j);				//该数字所在列
+				string idx = to_string(board[i][j]) + "int box" + to_string(boxIndex);		//该数字所在单元格
 				bool res = helper(set, r) && helper(set, c) && helper(set, idx);
 				if (!res)
 				{

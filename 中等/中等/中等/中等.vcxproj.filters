@@ -171,6 +171,18 @@
     <ClCompile Include="449-序列化和反序列化二插搜索树.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="944-删列造序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="面试题 01.05. 一次编辑.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="57-插入区间.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="71-简化路径.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="910.最小差值II.cpp">
