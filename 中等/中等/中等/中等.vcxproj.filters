@@ -183,6 +183,9 @@
     <ClCompile Include="71-简化路径.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="61-旋转链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="910.最小差值II.cpp">

@@ -178,6 +178,7 @@
     <ClCompile Include="56-合并区间.cpp" />
     <ClCompile Include="57-插入区间.cpp" />
     <ClCompile Include="59-螺旋矩阵II.cpp" />
+    <ClCompile Include="61-旋转链表.cpp" />
     <ClCompile Include="63-不同路径II.cpp" />
     <ClCompile Include="633-平方数之和.cpp" />
     <ClCompile Include="64-最小路径和.cpp" />
