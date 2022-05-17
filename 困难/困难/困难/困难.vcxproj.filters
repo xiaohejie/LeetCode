@@ -38,5 +38,11 @@
     <ClCompile Include="31-下一个排列.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="980-不同路径III.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="694-不同的岛屿的数量.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

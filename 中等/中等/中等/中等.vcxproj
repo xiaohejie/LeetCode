@@ -151,6 +151,7 @@
     <ClCompile Include="16-最接近的三数之和.cpp" />
     <ClCompile Include="167-两数之和-输入有序数组.cpp" />
     <ClCompile Include="1823-找出游戏中的获胜者.cpp" />
+    <ClCompile Include="200-岛屿数量.cpp" />
     <ClCompile Include="236-二叉树的公共祖先.cpp" />
     <ClCompile Include="283-移动0.cpp" />
     <ClCompile Include="31-下一个排列.cpp" />
