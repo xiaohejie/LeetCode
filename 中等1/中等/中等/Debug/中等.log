@@ -1,0 +1,32 @@
+﻿  0-草稿.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\0-草稿.cpp(32,16): error C2011: “Solution”:“class”类型重定义
+D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\0-草稿.cpp(10): message : 参见“Solution”的声明
+  15-三数之和.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\15-三数之和.cpp(14,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\15-三数之和.cpp(20,26): warning C4018: “<”: 有符号/无符号不匹配
+  16-最接近的三数之和.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\16-最接近的三数之和.cpp(36,18): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  200-岛屿数量.cpp
+  31-下一个排列.cpp
+  310-最小高度树.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\310-最小高度树.cpp(55,16): error C2011: “Solution”:“class”类型重定义
+D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\310-最小高度树.cpp(9): message : 参见“Solution”的声明
+  34-在排序树组中查找元素的第一个和最后一个位置.cpp
+  36-有效的数独.cpp
+  38-外观数列.cpp
+  43-字符串相乘.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\43-字符串相乘.cpp(17,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\43-字符串相乘.cpp(20,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\43-字符串相乘.cpp(29,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\43-字符串相乘.cpp(30,22): warning C4018: “<”: 有符号/无符号不匹配
+  449-序列化和反序列化二插搜索树.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\449-序列化和反序列化二插搜索树.cpp(34,21): warning C4018: “<”: 有符号/无符号不匹配
+  57-插入区间.cpp
+  61-旋转链表.cpp
+  63-不同路径II.cpp
+  71-简化路径.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等\中等\中等\71-简化路径.cpp(31,7): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+  944-删列造序.cpp
+  剑指：链表中的两数相加.cpp
+  面试题 01.05. 一次编辑.cpp
+  正在生成代码...

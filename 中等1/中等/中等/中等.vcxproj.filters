@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="56-合并区间.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="16-最接近的三数之和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="15-三数之和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="633-平方数之和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11-盛水最多的容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="819-最常见的单词.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="38-外观数列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="386-字典序排数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="0-草稿.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="31-下一个排列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="01-汉诺塔问题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="388-文件的最长路径.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="283-移动0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="02-位运算.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="824-山羊拉丁文.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="03-滑动窗口.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="396-旋转函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="310-最小高度树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="34-在排序树组中查找元素的第一个和最后一个位置.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="398-随机数索引.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="49-字母异位词分组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="883-三维形体投影面积.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="36-有效的数独.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="417-太平洋大西洋水流问题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="167-两数之和-输入有序数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="680-验证回文字符串ii.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="79-单词搜索.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="427-建立四叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1305-两颗二叉树中的所有元素.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="86-分隔链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="43-字符串相乘.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="64-最小路径和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="63-不同路径II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="937-重新排列日志文件.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1823-找出游戏中的获胜者.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="50-Pow(x, n).cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="48-旋转图像.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="236-二叉树的公共祖先.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="713-乘积小于K的子数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="54-螺旋矩阵.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="59-螺旋矩阵II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="491-递增子序列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="433-最小基因变化.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="442-数组中的重复的数据.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="797-所有可能的路径.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="942-增减字符串匹配.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="55-跳跃游戏.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="45-跳跃游戏II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指：链表中的两数相加.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="78-子集.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="90-子集II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="449-序列化和反序列化二插搜索树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="944-删列造序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="面试题 01.05. 一次编辑.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="57-插入区间.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="71-简化路径.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="61-旋转链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="200-岛屿数量.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1254-统计封闭岛屿的数目.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1905-统计子岛屿.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="73-矩阵置零.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="74-搜索二维矩阵.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="910.最小差值II.cpp">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
