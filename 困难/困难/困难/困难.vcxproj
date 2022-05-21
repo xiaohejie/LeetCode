@@ -148,6 +148,7 @@
     <ClCompile Include="440-字典序的第k小数字.cpp" />
     <ClCompile Include="51-N皇后问题.cpp" />
     <ClCompile Include="52-N皇后问题II.cpp" />
+    <ClCompile Include="668-乘法表中第k小的数.cpp" />
     <ClCompile Include="694-不同的岛屿的数量.cpp" />
     <ClCompile Include="980-不同路径III.cpp" />
   </ItemGroup>

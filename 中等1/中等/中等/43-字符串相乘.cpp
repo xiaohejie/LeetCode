@@ -13,19 +13,19 @@ class Solution {
 public:
 	string multiply(string num1, string num2) {
 		vector<int>a, b, c;
-		//将字符串转化为vector<int>存储
+		//（1）将字符串转化为vector<int>存储
 		for (int i = 0; i < num1.size(); i++) {
 			a.push_back(num1[i] - '0');
 		}
 		for (int i = 0; i < num2.size(); i++) {
 			b.push_back(num2[i] - '0');
 		}
-		//设置结果的长度（两数相乘，结果长度最大就是两个乘数的长度相加）
+		//（2）设置结果的长度（两数相乘，结果长度最大就是两个乘数的长度相加）
 		c.resize(a.size() + b.size());
-		//对vector进行逆反
+		//（3）对vector进行逆反
 		reverse(a.begin(), a.end());
 		reverse(b.begin(), b.end());
-		//开始计算
+		//（4）开始计算
 		for (int i = 0; i < a.size(); i++) {
 			for (int j = 0; j < b.size(); j++) {
 				//这一部分最重要

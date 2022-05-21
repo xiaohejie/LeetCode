@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 /*
-	不同路径III：
+	不同路径III（与岛屿题类似，可以一起看）：
 		使用回溯法
 */
 class Solution {
@@ -49,6 +49,7 @@ public:
 		for (int i = 0; i < m; i++) {
 			for (int j = 0; j < n; j++) {
 				if (grid[i][j] == 1) {
+					//开始走
 					dfs(i, j, emptySquares, grid);
 				}
 			}
