@@ -9,8 +9,11 @@ class Solution {
 public:
     //备忘录，记录number有没被判断过
     unordered_map<int, bool> memo;
+    //maxChoosableInteger：可选择的最大数；desiredTotal：谁先达到该值；usedNumbers：已经使用过的数；currentTotal：目前的和
     bool backTrack(int maxChoosableInteger, int usedNumbers, int desiredTotal, int currentTotal) {
-        //如果memo中没有该number
+   //这里usedNumbers比较难理解，因为使用的二进制表示，因为maxChoosableInteger最多只有20位
+      //usedNumbers | (1 << i)
+        //如果memo中没有该usedNumbers
         if (!memo.count(usedNumbers)) {
             bool res = false;           //使用usedNumber的结果
             //遍历

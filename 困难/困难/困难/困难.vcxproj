@@ -146,6 +146,7 @@
     <ClCompile Include="310-最小高度树.cpp" />
     <ClCompile Include="388-文件的最长绝对路径.cpp" />
     <ClCompile Include="440-字典序的第k小数字.cpp" />
+    <ClCompile Include="464-我能赢吗.cpp" />
     <ClCompile Include="51-N皇后问题.cpp" />
     <ClCompile Include="52-N皇后问题II.cpp" />
     <ClCompile Include="668-乘法表中第k小的数.cpp" />

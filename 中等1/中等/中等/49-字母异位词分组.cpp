@@ -13,6 +13,7 @@ class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
         unordered_map<string, vector<string>> ans;
+        //对每个字符串进行排序，用unordered_map存放每个字符串以及排序后的字符串
         for (auto& str : strs) {
             string key = str;
             sort(key.begin(), key.end());

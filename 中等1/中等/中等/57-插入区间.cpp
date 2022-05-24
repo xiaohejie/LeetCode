@@ -10,14 +10,16 @@ public:
 	vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
 		int len = intervals.size(), i = 0;
 		vector<vector<int>> ans;
+		//如果两个区间没有交集
  		while (i < len && intervals[i][1] < newInterval[0]) {
 			ans.push_back(intervals[i]);
 			i++;
 		}
+		//如果有交集并且还没有到最后
 		if (i < len)
 		{
 			newInterval[0] = min(intervals[i][0], newInterval[0]);
-			while (i < len && intervals[i][0] <= newInterval[1]) {
+			while (i < len && intervals[i][0] <= newInterval[1]) {		//这里得注意一下，intervals[i][0] <= newInterval[1]
 				newInterval[1] = max(intervals[i++][1], newInterval[1]);
 			}
 		}

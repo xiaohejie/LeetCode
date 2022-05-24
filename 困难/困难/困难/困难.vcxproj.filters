@@ -47,5 +47,8 @@
     <ClCompile Include="668-乘法表中第k小的数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="464-我能赢吗.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
