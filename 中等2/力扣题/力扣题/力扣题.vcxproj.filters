@@ -48,5 +48,17 @@
     <ClCompile Include="464-我能赢吗.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="99-恢复二插搜索树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="102-二叉树的层序遍历.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="467. 环绕字符串中唯一的子字符串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="89-格雷编码.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

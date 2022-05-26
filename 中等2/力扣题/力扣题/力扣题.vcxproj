@@ -140,16 +140,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="00-草稿.cpp" />
+    <ClCompile Include="102-二叉树的层序遍历.cpp" />
     <ClCompile Include="113-路径综合II.cpp" />
     <ClCompile Include="1905-统计子岛屿.cpp" />
     <ClCompile Include="378-有序矩阵中第 K 小的元素.cpp" />
     <ClCompile Include="436-寻找右区间.cpp" />
     <ClCompile Include="462. 最少移动次数使数组元素相等 II.cpp" />
     <ClCompile Include="464-我能赢吗.cpp" />
+    <ClCompile Include="467. 环绕字符串中唯一的子字符串.cpp" />
     <ClCompile Include="77-组合.cpp" />
     <ClCompile Include="80-删除有序数组中的重复项 II.cpp" />
+    <ClCompile Include="89-格雷编码.cpp" />
     <ClCompile Include="95-不同的二插搜索树II.cpp" />
     <ClCompile Include="96-不同的二插搜索树.cpp" />
+    <ClCompile Include="99-恢复二插搜索树.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
