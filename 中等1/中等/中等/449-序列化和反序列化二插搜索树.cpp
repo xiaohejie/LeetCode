@@ -4,7 +4,7 @@
 using namespace std;
 /*
 	序列化和反序列化搜索二叉树：
-		
+		    
 */
 struct TreeNode {
 	int val;
@@ -34,13 +34,13 @@ public:
 		for (int i = 0; i < res.size() - 1; i++) {
 			ans += to_string(res[i]) + ",";
 		}
-		ans += to_string(res[res.size() - 1]);
+		ans += to_string(res[res.size() - 1]);		//最后一个字符后面不需要将“,”，所以最后加上
 		return ans;
 	}
 	string serialize(TreeNode* root) {
 		vector<int> res;
-		helper1(root, res);
-		return vectorToString(res);
+		helper1(root, res);					//进行先序遍历
+		return vectorToString(res);			//然后将数组转化为字符串进行输出
 	}
 
 	// Decodes your encoded data to tree.
@@ -61,7 +61,7 @@ public:
 		if (data.empty()) {
 			return nullptr;
 		}
-		vector<int> res = split(data);
+		vector<int> res = split(data);		//对字符串进行分割（上面有定义）
 		TreeNode* newNode = new TreeNode(res[0]);
 		vector<int> leftVals;
 		vector<int> rightVals;

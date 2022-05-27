@@ -142,6 +142,7 @@
     <ClCompile Include="00-草稿.cpp" />
     <ClCompile Include="102-二叉树的层序遍历.cpp" />
     <ClCompile Include="113-路径综合II.cpp" />
+    <ClCompile Include="122-买卖股票的最佳时机II.cpp" />
     <ClCompile Include="1905-统计子岛屿.cpp" />
     <ClCompile Include="378-有序矩阵中第 K 小的元素.cpp" />
     <ClCompile Include="436-寻找右区间.cpp" />
