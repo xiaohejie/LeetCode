@@ -50,5 +50,8 @@
     <ClCompile Include="464-我能赢吗.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="剑指offerii-114-外星文字典.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -63,5 +63,38 @@
     <ClCompile Include="122-买卖股票的最佳时机II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="面试题17.11-单词距离.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="107-二叉树的层序遍历ii.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="129-求根节点到叶节点数字之和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1021-删除最外层的括号.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="468-验证IP地址.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="473. 火柴拼正方形.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="450. 删除二叉搜索树中的节点.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="929-独特的电子邮件地址.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="81-搜索旋转排序数组II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="478-在圆内随机生成点.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="91-解码方法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
