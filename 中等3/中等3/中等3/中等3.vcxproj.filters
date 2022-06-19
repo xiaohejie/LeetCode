@@ -24,5 +24,44 @@
     <ClCompile Include="93-复原IP地址.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="497. 非重叠矩形中的随机点.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="926-将字符串翻转到单调递增.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="890-查找和替换模式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="114. 二叉树展开为链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="498. 对角线遍历.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2300-药水和咒语的成功对数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="148-排序链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="532. 数组中的 k-diff 数对.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="97-交错字符串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指 Offer II 029. 排序的循环链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="103-二叉树的锯齿形层序遍历.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="508-出现次数最多的子树元素和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="105-从前序和中序遍历序列构造二叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
