@@ -57,3 +57,23 @@ public:
         }
     }
 };
+
+/*
+    1108. IP 地址无效化
+*/
+class Solution1108 {
+public:
+    string defangIPaddr(string address) {
+        int len = address.size();
+        string ans;
+        string str = "[.]";
+        for (int i = 0; i < len; i++) {
+            if (address[i] == '.') {
+                ans += str;
+                continue;
+            }
+            ans += address[i];
+        }
+        return ans;
+    }
+};

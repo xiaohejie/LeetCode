@@ -144,6 +144,8 @@
     <ClCompile Include="00-草稿.cpp" />
     <ClCompile Include="103-二叉树的锯齿形层序遍历.cpp" />
     <ClCompile Include="105-从前序和中序遍历序列构造二叉树.cpp" />
+    <ClCompile Include="106-从中序和后序遍历序列构造二叉树.cpp" />
+    <ClCompile Include="109-有序链表转化为二插搜索树.cpp" />
     <ClCompile Include="114. 二叉树展开为链表.cpp" />
     <ClCompile Include="148-排序链表.cpp" />
     <ClCompile Include="2300-药水和咒语的成功对数.cpp" />
