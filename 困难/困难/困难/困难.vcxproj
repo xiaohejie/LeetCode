@@ -142,6 +142,7 @@
     <ClInclude Include="数组中的逆序对.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="30. 串联所有单词的子串.cpp" />
     <ClCompile Include="31-下一个排列.cpp" />
     <ClCompile Include="310-最小高度树.cpp" />
     <ClCompile Include="388-文件的最长绝对路径.cpp" />

@@ -53,5 +53,8 @@
     <ClCompile Include="剑指offerii-114-外星文字典.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="30. 串联所有单词的子串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
