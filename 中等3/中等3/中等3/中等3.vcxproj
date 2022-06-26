@@ -147,6 +147,7 @@
     <ClCompile Include="106-从中序和后序遍历序列构造二叉树.cpp" />
     <ClCompile Include="109-有序链表转化为二插搜索树.cpp" />
     <ClCompile Include="114. 二叉树展开为链表.cpp" />
+    <ClCompile Include="116. 填充每个节点的下一个右侧节点指针.cpp" />
     <ClCompile Include="148-排序链表.cpp" />
     <ClCompile Include="2300-药水和咒语的成功对数.cpp" />
     <ClCompile Include="497. 非重叠矩形中的随机点.cpp" />
@@ -159,6 +160,7 @@
     <ClCompile Include="93-复原IP地址.cpp" />
     <ClCompile Include="97-交错字符串.cpp" />
     <ClCompile Include="剑指 Offer II 029. 排序的循环链表.cpp" />
+    <ClCompile Include="剑指 Offer II 091. 粉刷房子.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

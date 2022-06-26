@@ -18,5 +18,8 @@
     <ClCompile Include="513. 找树左下角的值.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="515. 在每个树行中找最大值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

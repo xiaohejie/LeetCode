@@ -69,5 +69,11 @@
     <ClCompile Include="109-有序链表转化为二插搜索树.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="剑指 Offer II 091. 粉刷房子.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="116. 填充每个节点的下一个右侧节点指针.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
