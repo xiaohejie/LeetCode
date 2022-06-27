@@ -21,5 +21,8 @@
     <ClCompile Include="515. 在每个树行中找最大值.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="522. 最长特殊序列 II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
