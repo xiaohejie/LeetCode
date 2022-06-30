@@ -139,9 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="00-简单.cpp" />
+    <ClCompile Include="324. 摆动排序 II.cpp" />
+    <ClCompile Include="376-摆动序列.cpp" />
     <ClCompile Include="513. 找树左下角的值.cpp" />
     <ClCompile Include="515. 在每个树行中找最大值.cpp" />
     <ClCompile Include="522. 最长特殊序列 II.cpp" />
+    <ClCompile Include="535. TinyURL 的加密与解密.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
