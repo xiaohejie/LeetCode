@@ -21,11 +21,12 @@ public:
                 pt_t++;
             }
             return pt_s == s.size();        //若相等，则说明s是t的子序列，不等，则说明不是。
-        };
+        }; 
         int len = strs.size();
         int ans = -1;
         for (int i = 0; i < len; i++) {
             bool check = true;      //记录最长特殊序列
+            //这边再进行一次for循环是用来观察strs[i]是不是其他字符串的子序列
             for (int j = 0; j < len; j++) {
                 if (i != j && is_subaeq(strs[i], strs[j])) {
                     //strs[i]是strs[j]的子序列

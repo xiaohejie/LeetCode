@@ -36,5 +36,26 @@
     <ClCompile Include="00-简单.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="241. 为运算表达式设计优先级.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="120. 三角形最小路径和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="556. 下一个更大元素 III.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="128. 最长连续序列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="729. 我的日程安排表 I.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="131. 分割回文串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="面试题：01.03.URL化.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -15,13 +15,14 @@ public:
         if(len == 1){
             return 1;
         }
+        //定义变量：上升、下降
         vector<int> up(len), down(len);
         //定义初始状态
         up[0] = down[0] = 1;
         //状态转移方程
         for (int i = 1; i < len; i++) {
             if (nums[i] > nums[i - 1]) {
-                //更新
+                //更新（如果当前数字大于前一个数字，画图）
                 up[i] = max(up[i - 1], down[i - 1] + 1);
                 down[i] = down[i - 1];
             }

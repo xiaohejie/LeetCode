@@ -1,4 +1,6 @@
 #include<iostream>
+#include<vector>
+#include<algorithm>
 using namespace std;
 /*
 	1175. 质数排列
@@ -47,5 +49,130 @@ public:
             noSum %= mod;
         }
         return (isSum * noSum) % mod;
+    }
+};
+
+/*
+    496. 下一个更大元素 I
+*/
+class Solution496 {
+public:
+    //找出某个元素在一个数组中对应位置右侧第一个的数
+    int helper(int num, vector<int>& nums) {
+        int index = -1;
+        for (int i = 0; i < nums.size(); i++) {
+            if (num == nums[i]) {
+                index = i;
+                break;
+            }
+        }
+        for (int i = index; i < nums.size(); i++) {
+            if (nums[i] > num) {
+                return nums[i];
+            }
+        }
+        return - 1;
+    }
+    vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
+        vector<int> ans;
+        for (int i = 0; i < nums1.size(); i++) {
+            int res = helper(nums1[i], nums2);
+            ans.push_back(res);
+        }
+        return ans;
+    }
+};
+
+/*
+    1200. 最小绝对差
+        排序+一次遍历
+*/
+class Solution {
+public:
+    vector<vector<int>> minimumAbsDifference(vector<int>& arr) {
+        sort(arr.begin(), arr.end());
+        //经过排序后，最小绝对差的元素对一定是相邻的两个元素
+        int minValue = INT_MAX;
+        vector<int> vec;
+        vector<vector<int>> ans;
+        for (int i = 1; i < arr.size(); i++) {
+            if (minValue > abs(arr[i]-arr[i-1])) {
+                //修改最小差
+                minValue = abs(arr[i] - arr[i - 1]);
+                //清零
+                ans.clear();
+                ans.push_back({arr[i-1], arr[i]});
+            }
+            else if (minValue == abs(arr[i] - arr[i - 1])) {
+                ans.push_back({ arr[i - 1], arr[i] });
+            }
+        }
+        return ans;
+    }
+};
+
+
+/*
+    面试题 01.03. URL化
+        从后往前（使用了额外空间）
+        不使用额外空间（因为题目中说了字符串尾部有足够的空间存放新增字符）
+*/
+class Solution {
+public:
+    string replaceSpaces(string S, int length) {
+        int lenFact = 0;
+        string ans;
+        lenFact = S.size();
+        if (lenFact == length) {
+            //将所有的空格全部填充
+            for (int i = 0; i < length; i++) {
+                if (S[i] == ' ') {
+                    ans += '%';
+                    ans += '2';
+                    ans += '0';
+                }
+                else {
+                    ans += S[i];
+                }
+            }
+        }
+        else {
+            //倒置，从后往前
+            reverse(S.begin(), S.end());
+            for (int i = 0; i < length; i++) {
+                if (lenFact != length && S[i] == ' ') {
+                    lenFact--;
+                    continue;
+                }
+                else if (S[i] == ' ') {
+                    ans += '0';
+                    ans += '2';
+                    ans += '%';
+                }
+                else {
+                    ans += S[i];
+                }
+            }
+        }   
+        return ans;
+    }
+    //不适用额外空间的解法
+    string replaceSpaces1(string S, int length) {
+        int fillIdx = S.size() - 1;
+        int i = 0;
+        for (i = length - 1; i >= 0; i--) {
+            if (S[i] == ' ') {
+                S[fillIdx] = '0';
+                S[fillIdx - 1] = '2';
+                S[fillIdx - 2] = '%';
+                fillIdx -= 3;
+            }
+            else {
+                S[fillIdx] = S[i];
+                fillIdx--;
+            }
+        }
+        S = S.substr(fillIdx + 1);
+        return S;
     }
 };
