@@ -1,2 +1,32 @@
-﻿  513. 找树左下角的值.cpp
-  LeetCode4.vcxproj -> D:\C++\workspace\10-力扣题2\LeetCode\中等4\LeetCode4\Debug\LeetCode4.exe
+﻿  00-简单.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等4\LeetCode4\LeetCode4\00-简单.cpp(10,19): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\workspace\10-力扣题2\LeetCode\中等4\LeetCode4\LeetCode4\00-简单.cpp(63,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\C++\workspace\10-力扣题2\LeetCode\中等4\LeetCode4\LeetCode4\00-简单.cpp(69,31): warning C4018: “<”: 有符号/无符号不匹配
+D:\C++\workspace\10-力扣题2\LeetCode\中等4\LeetCode4\LeetCode4\00-简单.cpp(78,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\C++\workspace\10-力扣题2\LeetCode\中等4\LeetCode4\LeetCode4\00-简单.cpp(90,16): error C2011: “Solution”:“class”类型重定义
+D:\C++\workspace\10-力扣题2\LeetCode\中等4\LeetCode4\LeetCode4\00-简单.cpp(9): message : 参见“Solution”的声明
+  120. 三角形最小路径和.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等4\LeetCode4\LeetCode4\120. 三角形最小路径和.cpp(35,16): error C2011: “Solution”:“class”类型重定义
+D:\C++\workspace\10-力扣题2\LeetCode\中等4\LeetCode4\LeetCode4\120. 三角形最小路径和.cpp(9): message : 参见“Solution”的声明
+  128. 最长连续序列.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等4\LeetCode4\LeetCode4\128. 最长连续序列.cpp(19,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\C++\workspace\10-力扣题2\LeetCode\中等4\LeetCode4\LeetCode4\128. 最长连续序列.cpp(27,27): warning C4018: “<”: 有符号/无符号不匹配
+  130. 被围绕的区域.cpp
+  131. 分割回文串.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等4\LeetCode4\LeetCode4\131. 分割回文串.cpp(21,31): warning C4018: “<”: 有符号/无符号不匹配
+  241. 为运算表达式设计优先级.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等4\LeetCode4\LeetCode4\241. 为运算表达式设计优先级.cpp(17,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\C++\workspace\10-力扣题2\LeetCode\中等4\LeetCode4\LeetCode4\241. 为运算表达式设计优先级.cpp(45,16): error C2011: “Solution”:“class”类型重定义
+D:\C++\workspace\10-力扣题2\LeetCode\中等4\LeetCode4\LeetCode4\241. 为运算表达式设计优先级.cpp(11): message : 参见“Solution”的声明
+  324. 摆动排序 II.cpp
+  376-摆动序列.cpp
+  513. 找树左下角的值.cpp
+  515. 在每个树行中找最大值.cpp
+  522. 最长特殊序列 II.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等4\LeetCode4\LeetCode4\522. 最长特殊序列 II.cpp(17,25): warning C4018: “<”: 有符号/无符号不匹配
+D:\C++\workspace\10-力扣题2\LeetCode\中等4\LeetCode4\LeetCode4\522. 最长特殊序列 II.cpp(17,44): warning C4018: “<”: 有符号/无符号不匹配
+  535. TinyURL 的加密与解密.cpp
+  556. 下一个更大元素 III.cpp
+  729. 我的日程安排表 I.cpp
+  面试题：01.03.URL化.cpp
+  正在生成代码...

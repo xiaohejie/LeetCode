@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
+#include<string>
 using namespace std;
 /*
 	1175. 质数排列
@@ -156,7 +157,7 @@ public:
         }   
         return ans;
     }
-    //不适用额外空间的解法
+    //不使用额外空间的解法
     string replaceSpaces1(string S, int length) {
         int fillIdx = S.size() - 1;
         int i = 0;
@@ -174,5 +175,50 @@ public:
         }
         S = S.substr(fillIdx + 1);
         return S;
+    }
+};
+
+
+/*
+    190. 颠倒二进制位
+*/
+class Solution190 {
+public:
+    uint32_t reverseBits(uint32_t n) {
+        uint32_t ans = 0;
+        for (int i = 0; i < 32 && n > 0; i++) {
+            //先将n与1按位与，然后换位置（倒置，如第0位移到31位）
+            ans |= (n & 1) << (31 - i);
+            //n不断右移
+            n >>= 1;
+        }
+        return ans;
+    }
+};
+
+/*
+    228. 汇总区间
+*/
+class Solution {
+public:
+    vector<string> summaryRanges(vector<int>& nums) {
+        vector<string> ans;
+        int len = nums.size();
+        int i = 0;
+        while (i < len) {
+            int low = i;
+            i++;
+            while (i < len && nums[i-1] + 1 == nums[i]) {
+                i++;
+            }
+            int high = i - 1;
+            string temp = to_string(nums[low]);
+            if (low < high) {
+                temp.append("->");
+                temp.append(to_string(nums[high]));
+            }
+            ans.push_back(temp);
+        }
+        return ans;
     }
 };

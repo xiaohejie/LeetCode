@@ -144,6 +144,7 @@
     <ClCompile Include="00-简单.cpp" />
     <ClCompile Include="120. 三角形最小路径和.cpp" />
     <ClCompile Include="128. 最长连续序列.cpp" />
+    <ClCompile Include="130. 被围绕的区域.cpp" />
     <ClCompile Include="131. 分割回文串.cpp" />
     <ClCompile Include="241. 为运算表达式设计优先级.cpp" />
     <ClCompile Include="324. 摆动排序 II.cpp" />
@@ -153,6 +154,7 @@
     <ClCompile Include="522. 最长特殊序列 II.cpp" />
     <ClCompile Include="535. TinyURL 的加密与解密.cpp" />
     <ClCompile Include="556. 下一个更大元素 III.cpp" />
+    <ClCompile Include="648. 单词替换.cpp" />
     <ClCompile Include="729. 我的日程安排表 I.cpp" />
     <ClCompile Include="面试题：01.03.URL化.cpp" />
   </ItemGroup>

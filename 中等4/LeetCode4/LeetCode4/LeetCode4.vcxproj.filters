@@ -57,5 +57,11 @@
     <ClCompile Include="面试题：01.03.URL化.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="130. 被围绕的区域.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="648. 单词替换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -9,5 +9,21 @@ using namespace std;
 class Solution {
 public:
 	string replaceSpaces(string S, int length) {
+		int lenFact = S.size() - 1;
+		for (int i = length - 1; i >= 0; i--) {
+			if (S[i] == ' ') {
+				S[lenFact] = '0';
+				S[lenFact - 1] = '2';
+				S[lenFact - 2] = '%';
+				lenFact -= 3;
+			}
+			else {
+				S[lenFact] = S[i];
+				lenFact--;
+			}
+		}
+		//截取字符串（从lenFact + 1截取到最后）
+		S = S.substr(lenFact + 1);
+		return S;
 	}
 };
