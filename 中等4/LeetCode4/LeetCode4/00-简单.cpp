@@ -222,3 +222,24 @@ public:
         return ans;
     }
 };
+
+/*
+    1217. 玩筹码
+        计算筹码的位置是在奇数位还是偶数位
+        返回较小的位
+*/
+class Solution {
+public:
+    int minCostToMoveChips(vector<int>& position) {
+        int even = 0, odd = 0;
+        for (int i = 0; i < position.size(); i++) {
+            if (position[i] % 2 == 0) {
+                odd++;
+            }
+            else {
+                even++;
+            }
+        }
+        return min(odd, even);
+    }
+};
