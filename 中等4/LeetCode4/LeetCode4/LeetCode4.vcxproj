@@ -156,7 +156,10 @@
     <ClCompile Include="535. TinyURL 的加密与解密.cpp" />
     <ClCompile Include="556. 下一个更大元素 III.cpp" />
     <ClCompile Include="648. 单词替换.cpp" />
+    <ClCompile Include="676. 实现一个魔法字典.cpp" />
     <ClCompile Include="729. 我的日程安排表 I.cpp" />
+    <ClCompile Include="735. 行星碰撞.cpp" />
+    <ClCompile Include="873. 最长的斐波那契子序列的长度.cpp" />
     <ClCompile Include="面试题：01.03.URL化.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -243,3 +243,31 @@ public:
         return min(odd, even);
     }
 };
+
+/*
+    1252. 奇数值单元格的数目
+*/
+class Solution {
+public:
+    int oddCells(int m, int n, vector<vector<int>>& indices) {
+        int len = m * n;
+        int count = 0;
+        vector<int> ans(len);       //用来存储m行n列的矩阵
+        for (auto indicy : indices) {
+            int row = indicy[0];      //找到行
+            int col = indicy[1];      //找到列
+            for (int i = row * n; i < row * n + n; i++) {
+                ans[i]++;
+            }
+            for (int j = col; j < len; j = j + n) {
+                ans[j]++;
+            }
+        }
+        for (int i = 0; i < len; i++) {
+            if (ans[i] % 2 == 1) {
+                count++;
+            }
+        }
+        return count;
+    }
+};

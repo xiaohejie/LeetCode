@@ -66,5 +66,14 @@
     <ClCompile Include="134. 加油站.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="873. 最长的斐波那契子序列的长度.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="676. 实现一个魔法字典.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="735. 行星碰撞.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
