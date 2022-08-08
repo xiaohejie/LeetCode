@@ -21,5 +21,41 @@
     <ClCompile Include="00-简单.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="565. 数组嵌套.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="814-二叉树剪枝.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指 Offer II 115. 重建序列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="731. 我的日程安排表 II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="592. 分数加减运算.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="593. 有效的正方形.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1161. 最大层内元素和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="438. 找到字符串中所有字母异位词.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="622.设计循环队列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="889. 根据前序和后序遍历构造二叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="623. 在二叉树中增加一行.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="636. 函数的独占时间.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

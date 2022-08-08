@@ -52,7 +52,7 @@ public:
 		for (int i = 0; i < edges.size(); i++) {
 			if (edges[i] + matchsticks[index] > edge) {
 				//如果当前长度加上diindex根火柴的长度大于边长
-				continue;       //尝试下一个桶
+				continue;       //尝试下一个桶 
 			}
 			edges[i] += matchsticks[index];     //第index根火柴放入第i个桶中
 			cout << edges[i] << " ";
@@ -79,7 +79,7 @@ public:
 	}
 };
 
-int main() {
+int main1() {
 	vector<int> matchsticks = { 1, 1, 2, 2, 2 };
 	Solution s;
 	s.makesquare(matchsticks);
