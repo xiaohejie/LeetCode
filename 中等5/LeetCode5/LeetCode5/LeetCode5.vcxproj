@@ -149,6 +149,7 @@
     <ClCompile Include="622.设计循环队列.cpp" />
     <ClCompile Include="623. 在二叉树中增加一行.cpp" />
     <ClCompile Include="636. 函数的独占时间.cpp" />
+    <ClCompile Include="640. 求解方程.cpp" />
     <ClCompile Include="731. 我的日程安排表 II.cpp" />
     <ClCompile Include="814-二叉树剪枝.cpp" />
     <ClCompile Include="889. 根据前序和后序遍历构造二叉树.cpp" />

@@ -57,5 +57,8 @@
     <ClCompile Include="636. 函数的独占时间.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="640. 求解方程.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
