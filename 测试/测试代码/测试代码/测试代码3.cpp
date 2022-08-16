@@ -44,7 +44,7 @@ public:
 	}
 };
 
-int main() {
+int main3() {
 	Solution3 s;
 	vector<int> nums{ 1,1,2 };
 	vector<vector<int>>ans = s.permuteUnique(nums);

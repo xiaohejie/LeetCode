@@ -150,3 +150,74 @@ public:
         return -accSumMin + 1;
     }
 };
+
+
+/*
+    1417. 重新格式化字符串
+*/
+class Solution {
+public:
+    string reformat(string s) {
+        string ans = "";
+        int countNum = 0, countChar = 0;
+        int len = s.size();
+        string strNum = "", strChar = "";
+        for (int i = 0; i < len; i++) {
+            if (s[i] >= '0' && s[i] <= '9') {
+                countNum++;
+                strNum += s[i];
+            }
+            else {
+                countChar++;
+                strChar += s[i];
+            }
+        }
+        if (abs(countChar - countNum) > 1) {
+            return ans;
+        }
+        if (countNum - countChar != -1) {
+            //数字个数大于等于字符个数
+            for (int i = 0; i < min(countNum, countChar); i++) {
+                ans += strNum[i];
+                ans += strChar[i];
+            }
+            if (countNum > countChar) {
+                ans += strNum[countNum - 1];
+            }
+        }
+        else {
+            //字符个数大于数字个数
+            for (int i = 0; i < min(countNum, countChar); i++) {
+                ans += strChar[i];
+                ans += strNum[i];
+            }
+            if (countNum > countChar) {
+                ans += strChar[countChar - 1];
+            }
+        }
+        return ans;
+    }
+};
+
+/*
+    1656. 设计有序流
+*/
+class OrderedStream {
+    vector<string> stream;
+    int ptr;
+public:
+    OrderedStream(int n) {
+        stream.resize(n+1);
+        ptr = 1;
+    }
+
+    vector<string> insert(int idKey, string value) {
+        stream[idKey] = value;
+        vector<string> res;
+        while (ptr < stream.size() && !stream[ptr].empty()) {
+            res.push_back(stream[ptr]);
+            ++ptr;
+        }
+        return res;
+    }
+};

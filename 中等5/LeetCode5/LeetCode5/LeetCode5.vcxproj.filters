@@ -60,5 +60,11 @@
     <ClCompile Include="640. 求解方程.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1282. 用户分组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="641. 设计循环双端队列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
