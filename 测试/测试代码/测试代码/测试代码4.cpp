@@ -9,7 +9,7 @@ void helper(char** p) {
 	*p = (char*)malloc(100);
 	strcpy(*p, "hello world");
 }
-int main() {
+int main4() {
 	char* str = NULL;
 	helper(&str);
 	printf("%s/n", str);
