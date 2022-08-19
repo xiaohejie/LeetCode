@@ -72,5 +72,8 @@
     <ClCompile Include="143. 重排链表.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="150. 逆波兰表达式求值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
