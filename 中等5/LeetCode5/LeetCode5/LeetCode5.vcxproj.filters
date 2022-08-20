@@ -75,5 +75,11 @@
     <ClCompile Include="150. 逆波兰表达式求值.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="654. 最大二叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="139. 单词拆分.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
