@@ -88,6 +88,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -143,6 +145,7 @@
     <ClCompile Include="1161. 最大层内元素和.cpp" />
     <ClCompile Include="1282. 用户分组.cpp" />
     <ClCompile Include="1302. 层数最深叶子节点的和.cpp" />
+    <ClCompile Include="133-克隆图.cpp" />
     <ClCompile Include="139. 单词拆分.cpp" />
     <ClCompile Include="143. 重排链表.cpp" />
     <ClCompile Include="150. 逆波兰表达式求值.cpp" />
