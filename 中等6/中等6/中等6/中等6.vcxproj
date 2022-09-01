@@ -88,6 +88,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,8 +141,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="00-简单.cpp" />
     <ClCompile Include="146. LRU 缓存.cpp" />
     <ClCompile Include="658. 找到 K 个最接近的元素.cpp" />
+    <ClCompile Include="662. 二叉树最大宽度.cpp" />
+    <ClCompile Include="946. 验证栈序列.cpp" />
+    <ClCompile Include="998. 最大二叉树 II.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
