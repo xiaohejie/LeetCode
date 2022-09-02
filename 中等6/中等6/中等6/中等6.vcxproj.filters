@@ -33,5 +33,8 @@
     <ClCompile Include="946. 验证栈序列.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="151. 反转字符串中的单词.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

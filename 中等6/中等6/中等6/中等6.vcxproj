@@ -143,6 +143,7 @@
   <ItemGroup>
     <ClCompile Include="00-简单.cpp" />
     <ClCompile Include="146. LRU 缓存.cpp" />
+    <ClCompile Include="151. 反转字符串中的单词.cpp" />
     <ClCompile Include="658. 找到 K 个最接近的元素.cpp" />
     <ClCompile Include="662. 二叉树最大宽度.cpp" />
     <ClCompile Include="946. 验证栈序列.cpp" />
