@@ -92,3 +92,95 @@ public:
         return ans;
     }
 };
+
+/*
+    1582. 二进制矩阵中的特殊位置
+*/
+class Solution {
+public:
+    int helper(int row , int col , int rows, int cols, vector<vector<int>>& mat) {
+        //遍历第i行和第j列
+        for (int i = 0; i < cols; i++) {
+            if (mat[row][i] == 1) {
+                return 0;
+            }
+        }
+        for (int i = 0; i < rows; i++) {
+            if (mat[i][col] == 1) {
+                return 0;
+            }
+        }
+        return 1;
+    }
+    int numSpecial(vector<vector<int>>& mat) {
+        int rows = mat.size(), cols = mat[0].size();
+        int ans = 0;
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (mat[i][j] == 1) {
+                    ans += helper(i, j, rows, cols, mat);
+                }
+            }
+        }
+        return ans;
+    }
+};
+
+/*
+    1592. 重新排列单词间的空格
+*/
+class Solution {
+    vector<string> str;
+    int count = 0;
+public:
+    string reorderSpaces(string text) {
+        int index = 0;
+        for (int i = 0; i < text.length(); i++) {
+            if (text[i]) {
+                
+            }
+        }
+    }
+};
+
+/*
+    1598. 文件夹操作日志搜集器
+*/
+class Solution {
+public:
+    int minOperations(vector<string>& logs) {
+        int depth = 0;
+        for (auto& log : logs) {
+            if (log == "./") {
+                continue;
+            }
+            else if (log == "../") {
+                if (depth > 0) {
+                    depth--;
+                }
+            }
+            else {
+                depth++;
+            }
+        }
+        return depth;
+    }
+};
+
+/*
+    1608. 特殊数组的特征值
+*/
+class Solution {
+public:
+    int specialArray(vector<int>& nums) {
+        sort(nums.begin(), nums.end(), greater<int>());
+        int n = nums.size();
+        for (int i = 1; i <= n; i++) {
+            //第i个元素大于等于i并且（如果第i+1个元素存在的话，该元素小于i）
+            if ((nums[i - 1] >= i) && (n == i || nums[i] < i)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+};

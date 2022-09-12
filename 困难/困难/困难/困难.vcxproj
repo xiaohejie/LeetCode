@@ -88,6 +88,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -146,12 +148,14 @@
     <ClCompile Include="31-下一个排列.cpp" />
     <ClCompile Include="310-最小高度树.cpp" />
     <ClCompile Include="388-文件的最长绝对路径.cpp" />
+    <ClCompile Include="4. 寻找两个正序数组的中位数.cpp" />
     <ClCompile Include="440-字典序的第k小数字.cpp" />
     <ClCompile Include="464-我能赢吗.cpp" />
     <ClCompile Include="51-N皇后问题.cpp" />
     <ClCompile Include="52-N皇后问题II.cpp" />
     <ClCompile Include="668-乘法表中第k小的数.cpp" />
     <ClCompile Include="694-不同的岛屿的数量.cpp" />
+    <ClCompile Include="828. 统计子串中的唯一字符.cpp" />
     <ClCompile Include="980-不同路径III.cpp" />
     <ClCompile Include="剑指offerii-114-外星文字典.cpp" />
   </ItemGroup>

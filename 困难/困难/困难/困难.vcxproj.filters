@@ -56,5 +56,11 @@
     <ClCompile Include="30. 串联所有单词的子串.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="828. 统计子串中的唯一字符.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4. 寻找两个正序数组的中位数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -36,5 +36,26 @@
     <ClCompile Include="151. 反转字符串中的单词.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="687. 最长同值路径.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="646. 最长数对链.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="652. 寻找重复的子树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="667. 优美的排列 II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="669. 修剪二叉搜索树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="152. 乘积最大子数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="153. 寻找旋转排序数组中的最小值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
