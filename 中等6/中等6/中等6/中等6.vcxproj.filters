@@ -57,5 +57,26 @@
     <ClCompile Include="153. 寻找旋转排序数组中的最小值.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="670. 最大交换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="162. 寻找峰值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="165. 比较版本号.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="319. 灯泡开关.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="166. 分数到小数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="173. 二叉搜索树迭代器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="179. 最大数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

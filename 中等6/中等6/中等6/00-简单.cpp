@@ -2,6 +2,7 @@
 #include<vector>
 #include<stack>
 #include<algorithm>
+#include<unordered_map>
 using namespace std;
 /*
 	1464. 数组中两元素的最大乘积
@@ -182,5 +183,45 @@ public:
             }
         }
         return -1;
+    }
+};
+
+/*
+    1619. 删除某些元素后的数组均值
+*/
+class Solution {
+public:
+    double trimMean(vector<int>& arr) {
+        int n = arr.size();
+        int num = n * 0.05;
+        int sum = 0;
+        for (int i = num; i < n - num; i++) {
+            sum += arr[i];
+        }
+        return (double)sum / (n - num * 2);
+    }
+};
+
+/*
+    1624. 两个相同字符之间的最长子字符串
+*/
+class Solution {
+public:
+    unordered_map<char, vector<int>> map;
+    int maxLengthBetweenEqualCharacters(string s) {
+        int ans = -1;
+        for (int i = 0; i < s.size(); i++) {
+            //cout << s[i] << " " << i << endl;
+            map[s[i]].push_back(i);
+        }
+        for (auto m : map) {
+            int len = m.second.size();
+            if (len == 1) {
+                ans = max(ans, -1);
+            }
+            vector<int> vec = m.second;
+            ans = max(ans, vec[len - 1] - vec[0]);
+        }
+        return ans;
     }
 };
