@@ -1,0 +1,39 @@
+﻿  00-简单.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等6\中等6\中等6\00-简单.cpp(26,16): error C2011: “Solution”:“class”类型重定义
+D:\C++\workspace\10-力扣题2\LeetCode\中等6\中等6\中等6\00-简单.cpp(10): message : 参见“Solution”的声明
+  146. LRU 缓存.cpp
+  151. 反转字符串中的单词.cpp
+  152. 乘积最大子数组.cpp
+  153. 寻找旋转排序数组中的最小值.cpp
+  162. 寻找峰值.cpp
+  1640. 能否连接形成数组.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等6\中等6\中等6\1640. 能否连接形成数组.cpp(12,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\C++\workspace\10-力扣题2\LeetCode\中等6\中等6\中等6\1640. 能否连接形成数组.cpp(16,27): warning C4018: “<”: 有符号/无符号不匹配
+  165. 比较版本号.cpp
+  166. 分数到小数.cpp
+  173. 二叉搜索树迭代器.cpp
+  179. 最大数.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等6\中等6\中等6\179. 最大数.cpp(32,16): error C2011: “Solution”:“class”类型重定义
+D:\C++\workspace\10-力扣题2\LeetCode\中等6\中等6\中等6\179. 最大数.cpp(10): message : 参见“Solution”的声明
+  319. 灯泡开关.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等6\中等6\中等6\319. 灯泡开关.cpp(10,20): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+  646. 最长数对链.cpp
+  652. 寻找重复的子树.cpp
+  658. 找到 K 个最接近的元素.cpp
+  662. 二叉树最大宽度.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等6\中等6\中等6\662. 二叉树最大宽度.cpp(38,10): warning C4244: “return”: 从“unsigned __int64”转换到“int”，可能丢失数据
+  667. 优美的排列 II.cpp
+  669. 修剪二叉搜索树.cpp
+  670. 最大交换.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等6\中等6\中等6\670. 最大交换.cpp(40,16): error C2011: “Solution”:“class”类型重定义
+D:\C++\workspace\10-力扣题2\LeetCode\中等6\中等6\中等6\670. 最大交换.cpp(11): message : 参见“Solution”的声明
+  687. 最长同值路径.cpp
+  正在生成代码...
+  正在编译...
+  698. 划分为k个相等的子集.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等6\中等6\中等6\698. 划分为k个相等的子集.cpp(50,25): warning C4018: “<”: 有符号/无符号不匹配
+D:\C++\workspace\10-力扣题2\LeetCode\中等6\中等6\中等6\698. 划分为k个相等的子集.cpp(54,27): warning C4018: “<”: 有符号/无符号不匹配
+  707. 设计链表.cpp
+  946. 验证栈序列.cpp
+  998. 最大二叉树 II.cpp
+  正在生成代码...

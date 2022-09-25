@@ -225,3 +225,65 @@ public:
         return ans;
     }
 };
+
+/*
+    1636. 按照频率将数组升序排序
+*/
+class Solution {
+    unordered_map<int, int> map;
+public:
+    vector<int> frequencySort(vector<int>& nums) {
+        for (int i = 0; i < nums.size(); i++) {
+            map[nums[i]]++;
+        }
+        sort(nums.begin(), nums.end(), [&](const int& a, const int& b) {
+            if (map[a] < map[b]) {
+                return true;
+            }
+            else if (map[a] == map[b]) {
+                return a > b;
+            }
+            return false;
+            });
+        return nums;
+    }
+};
+
+/*
+    1640. 能否连接形成数组
+*/
+class Solution {
+public:
+    bool canFormArray(vector<int>& arr, vector<vector<int>>& pieces) {
+
+    }
+};
+
+/*
+    1652. 拆炸弹
+*/
+class Solution {
+public:
+    vector<int> decrypt(vector<int>& code, int k) {
+        vector<int> newCode(code.size(), 0);
+        if ( k == 0) {
+            return newCode;
+        }
+        for (int i = 0; i < code.size(); i++) {
+            int sum = 0;
+            if (k > 0) {
+                for (int j = 1; j <= k; j++) {
+                    sum += code[(i + j) % code.size()];
+                }
+            }
+            else {
+                for (int j = i + k; j < i; j++) {
+                    sum += code[(j + code.size()) % code.size()];
+                }
+                
+            }
+            newCode[i] = sum;
+        }
+        return newCode;
+    }
+};
