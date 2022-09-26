@@ -158,6 +158,7 @@
     <ClCompile Include="828. 统计子串中的唯一字符.cpp" />
     <ClCompile Include="980-不同路径III.cpp" />
     <ClCompile Include="剑指offerii-114-外星文字典.cpp" />
+    <ClCompile Include="面试题17.19.消失的数字.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

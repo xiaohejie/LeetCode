@@ -62,5 +62,8 @@
     <ClCompile Include="4. 寻找两个正序数组的中位数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="面试题17.19.消失的数字.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
