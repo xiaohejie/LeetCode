@@ -44,7 +44,7 @@ public:
     }
 };
 
-int main() {
+int main5() {
     string s = "3552";
     Solution so;
     vector<string> ans = so.restoreIpAddresses(s);

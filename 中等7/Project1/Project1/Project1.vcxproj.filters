@@ -18,5 +18,68 @@
     <ClCompile Include="187. 重复的DNA序列.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="00-简单.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="面试题 17.09. 第 k 个数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="777. 在LR字符串中交换相邻字符.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="921. 使括号有效的最少添加.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="811. 子域名访问计数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="870. 优势洗牌.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="856. 括号的分数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="01-实现两个线程交替打印1-100.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="817. 链表组件.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="769. 最多能完成排序的块.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1441. 用栈操作构建数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="886. 可能的二分法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="904. 水果成篮.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="779. 第K个语法符号.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="901. 股票价格跨度.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="915. 分割数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="934. 最短的桥.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指 Offer 16. 数值的整数次方.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指 Offer II 077. 链表排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="907. 子数组的最小值之和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="784. 字母大小写全排列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

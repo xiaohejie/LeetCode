@@ -144,6 +144,8 @@
     <ClInclude Include="数组中的逆序对.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="115. 不同的子序列.cpp" />
+    <ClCompile Include="1235. 规划兼职工作.cpp" />
     <ClCompile Include="30. 串联所有单词的子串.cpp" />
     <ClCompile Include="31-下一个排列.cpp" />
     <ClCompile Include="310-最小高度树.cpp" />
@@ -156,6 +158,7 @@
     <ClCompile Include="668-乘法表中第k小的数.cpp" />
     <ClCompile Include="694-不同的岛屿的数量.cpp" />
     <ClCompile Include="828. 统计子串中的唯一字符.cpp" />
+    <ClCompile Include="940. 不同的子序列 II.cpp" />
     <ClCompile Include="980-不同路径III.cpp" />
     <ClCompile Include="剑指offerii-114-外星文字典.cpp" />
     <ClCompile Include="面试题17.19.消失的数字.cpp" />

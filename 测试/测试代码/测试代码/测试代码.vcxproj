@@ -144,6 +144,9 @@
     <ClCompile Include="测试代码3.cpp" />
     <ClCompile Include="测试代码4.cpp" />
     <ClCompile Include="测试代码5.cpp" />
+    <ClCompile Include="测试代码6.cpp" />
+    <ClCompile Include="测试代码7-实现两个线程交替打印0-100.cpp" />
+    <ClCompile Include="测试代码8.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
