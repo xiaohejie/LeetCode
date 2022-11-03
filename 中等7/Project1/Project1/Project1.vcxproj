@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -144,7 +144,9 @@
     <ClCompile Include="00-简单.cpp" />
     <ClCompile Include="01-实现两个线程交替打印1-100.cpp" />
     <ClCompile Include="1441. 用栈操作构建数组.cpp" />
+    <ClCompile Include="1620. 网络信号最好的坐标.cpp" />
     <ClCompile Include="187. 重复的DNA序列.cpp" />
+    <ClCompile Include="481. 神奇字符串.cpp" />
     <ClCompile Include="769. 最多能完成排序的块.cpp" />
     <ClCompile Include="777. 在LR字符串中交换相邻字符.cpp" />
     <ClCompile Include="779. 第K个语法符号.cpp" />

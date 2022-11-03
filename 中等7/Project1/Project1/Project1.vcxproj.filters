@@ -81,5 +81,11 @@
     <ClCompile Include="784. 字母大小写全排列.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="481. 神奇字符串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1620. 网络信号最好的坐标.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
