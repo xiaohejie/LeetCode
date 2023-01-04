@@ -1,15 +1,54 @@
 ﻿  00-简单.cpp
-D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\00-简单.cpp(15,27): warning C4018: “<”: 有符号/无符号不匹配
-D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\00-简单.cpp(30,16): error C2011: “Solution”:“class”类型重定义
-D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\00-简单.cpp(8): message : 参见“Solution”的声明
+D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\00-简单.cpp(16,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\00-简单.cpp(31,16): error C2011: “Solution”:“class”类型重定义
+D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\00-简单.cpp(9): message : 参见“Solution”的声明
   01-实现两个线程交替打印1-100.cpp
+  1441. 用栈操作构建数组.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\1441. 用栈操作构建数组.cpp(12,27): warning C4018: “<”: 有符号/无符号不匹配
+  1620. 网络信号最好的坐标.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\1620. 网络信号最好的坐标.cpp(18,1): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+  187. 重复的DNA序列.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\187. 重复的DNA序列.cpp(15,27): warning C4018: “<”: 有符号/无符号不匹配
+  189. 轮转数组.cpp
+  481. 神奇字符串.cpp
+  754. 到达终点数字.cpp
+  769. 最多能完成排序的块.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\769. 最多能完成排序的块.cpp(20,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\769. 最多能完成排序的块.cpp(34,16): error C2011: “Solution”:“class”类型重定义
+D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\769. 最多能完成排序的块.cpp(16): message : 参见“Solution”的声明
   777. 在LR字符串中交换相邻字符.cpp
+  779. 第K个语法符号.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\779. 第K个语法符号.cpp(14,1): warning C4554: “<<”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\779. 第K个语法符号.cpp(24,16): error C2011: “Solution”:“class”类型重定义
+D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\779. 第K个语法符号.cpp(8): message : 参见“Solution”的声明
+  784. 字母大小写全排列.cpp
   811. 子域名访问计数.cpp
 D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\811. 子域名访问计数.cpp(23,23): warning C4018: “>=”: 有符号/无符号不匹配
 D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\811. 子域名访问计数.cpp(28,19): warning C4018: “>=”: 有符号/无符号不匹配
 D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\811. 子域名访问计数.cpp(40,27): warning C4018: “<”: 有符号/无符号不匹配
+  816. 模糊坐标.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\816. 模糊坐标.cpp(13,27): warning C4018: “<”: 有符号/无符号不匹配
+  817. 链表组件.cpp
   856. 括号的分数.cpp
   870. 优势洗牌.cpp
+  886. 可能的二分法.cpp
+  901. 股票价格跨度.cpp
+  904. 水果成篮.cpp
+  正在生成代码...
+  正在编译...
+  907. 子数组的最小值之和.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\907. 子数组的最小值之和.cpp(33,23): warning C4244: “初始化”: 从“double”转换到“__int64”，可能丢失数据
+D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\907. 子数组的最小值之和.cpp(37,16): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  915. 分割数组.cpp
+  921. 使括号有效的最少添加.cpp
+  934. 最短的桥.cpp
+  剑指 Offer 16. 数值的整数次方.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\剑指 Offer 16. 数值的整数次方.cpp(15,1): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\剑指 Offer 16. 数值的整数次方.cpp(26,16): error C2011: “Solution”:“class”类型重定义
+D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\剑指 Offer 16. 数值的整数次方.cpp(8): message : 参见“Solution”的声明
+  剑指 Offer II 077. 链表排序.cpp
+D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\剑指 Offer II 077. 链表排序.cpp(72,16): error C2011: “Solution”:“class”类型重定义
+D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\剑指 Offer II 077. 链表排序.cpp(17): message : 参见“Solution”的声明
   面试题 17.09. 第 k 个数.cpp
 D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\面试题 17.09. 第 k 个数.cpp(36,16): error C2011: “Solution”:“class”类型重定义
 D:\C++\workspace\10-力扣题2\LeetCode\中等7\Project1\Project1\面试题 17.09. 第 k 个数.cpp(11): message : 参见“Solution”的声明

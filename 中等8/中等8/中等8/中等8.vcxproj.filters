@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="199. 二叉树的右视图.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="775. 全局倒置与局部倒置.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="792. 匹配子序列的单词数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="198. 打家劫舍.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="202. 快乐数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="799. 香槟塔.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="808. 分汤.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="795. 区间子数组个数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="809. 情感丰富的文字.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="813. 最大平均值和的分组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1769. 移动所有球到每个盒子所需的最小操作数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1774. 最接近目标价格的甜点成本.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="208. 实现 Trie (前缀树).cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1775. 通过最少操作次数使数组的和相等.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1780. 判断一个数字是否可以表示成三的幂的和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="213. 打家劫舍 II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="209. 长度最小的子数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1781. 所有子字符串美丽值之和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="207. 课程表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1971. 寻找图中是否存在路径.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1764. 通过连接另一个数组的子数组得到一个数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1785. 构成特定和需要添加的最少元素.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1760. 袋子里最少数目的球.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1753. 移除石子的最大得分.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1754. 构造字典序最大的合并字符串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1759. 统计同构子字符串的数目.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="855. 考场就座.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1750. 删除字符串两端相同字符后的最短长度.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1801. 积压订单中的订单总数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

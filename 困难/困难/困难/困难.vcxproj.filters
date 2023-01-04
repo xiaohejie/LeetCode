@@ -74,5 +74,11 @@
     <ClCompile Include="1235. 规划兼职工作.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="10. 正则表达式匹配.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="23. 合并K个升序链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

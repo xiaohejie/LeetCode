@@ -36,7 +36,19 @@
     <ClCompile Include="测试代码7-实现两个线程交替打印0-100.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="测试代码8.cpp">
+    <ClCompile Include="测试代码8希尔排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="测试代码9shared_ptr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="测试代码10_左值引用与右值引用.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="测试代码11_unordered_set的排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="测试代码12_线程return.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

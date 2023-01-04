@@ -87,5 +87,26 @@
     <ClCompile Include="1620. 网络信号最好的坐标.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="754. 到达终点数字.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="189. 轮转数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="816. 模糊坐标.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="764. 最大加号标志.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="790. 多米诺和托米诺平铺.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="791. 自定义字符串排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="237. 删除链表中的节点.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

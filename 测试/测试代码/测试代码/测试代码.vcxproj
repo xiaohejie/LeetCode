@@ -88,6 +88,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -140,13 +142,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="测试代码.cpp" />
+    <ClCompile Include="测试代码10_左值引用与右值引用.cpp" />
+    <ClCompile Include="测试代码11_unordered_set的排序.cpp" />
+    <ClCompile Include="测试代码12_线程return.cpp" />
     <ClCompile Include="测试代码2.cpp" />
     <ClCompile Include="测试代码3.cpp" />
     <ClCompile Include="测试代码4.cpp" />
     <ClCompile Include="测试代码5.cpp" />
     <ClCompile Include="测试代码6.cpp" />
     <ClCompile Include="测试代码7-实现两个线程交替打印0-100.cpp" />
-    <ClCompile Include="测试代码8.cpp" />
+    <ClCompile Include="测试代码8希尔排序.cpp" />
+    <ClCompile Include="测试代码9shared_ptr.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

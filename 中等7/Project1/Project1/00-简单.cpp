@@ -210,3 +210,30 @@ public:
         return *max_element(f.begin(), f.end());
     }
 };
+
+/*
+    1678. Éè¼Æ Goal ½âÎöÆ÷
+*/
+class Solution {
+public:
+    string interpret(string command) {
+        int len = command.size();
+        string ans = "";
+        for (int i = 0; i < len; i++) {
+            if (command[i] == 'G') {
+                ans += 'G';
+            }
+            else if (command[i] == '(') {
+                if(command[i + 1] == ')') {
+                    i = i + 1;
+                    ans += 'o';
+                }
+                else {
+                    ans += "al";
+                    i = i + 3;
+                }
+            }
+        }
+        return ans;
+    }
+};
